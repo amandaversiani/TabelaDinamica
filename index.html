@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus Animes</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="animes.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div>
+            <main>
+                <div class="itens">
+                    <h1>Faça umta tabela de seus animes</h1>
+                    <form>
+                        <div class="dados">
+                            <label for="nome">Nome: </label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                        <div class="dados">
+                            <label for="genero"> Gênero: </label>
+                            <select name="genero" id="genero">
+                                <option value="comedia">Comédia</option>
+                                <option value="romance">Romance</option>
+                                <option value="acao">Ação</option>
+                                <option value="suspense">Suspense</option>
+                                <option value="terror">Terror</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="dados">
+                            <label for="ano">Ano de Lançamento: </label>
+                            <input type="date" nome="ano" id="ano">
+                        </div>
+                        <div class="dados">
+                            <label for="nota">Nota: </label>
+                            <input type="number" nome="nota" id="nota" min="0" max="10">
+                        </div>
+                        <button onclick="guardarDados(event)">ENVIAR</button>
+                    </form>
+                    <table id="cabecaTabela">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Gênero</th>
+                                <th>Ano de Lançamento</th>
+                                <th>Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody id="animeTabela">
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+            <footer>Exemplo de tabela dinâminca com HTML, JavaScript e CSS</footer>
+        </div>
+    </div>
+</body>
+</html>

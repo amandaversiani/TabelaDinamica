@@ -1,0 +1,85 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: #ffdeff;
+}
+
+main{
+    padding: 50px;
+    border: 3px solid lightcoral;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.itns{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.itns > h1{
+    border-top-right-radius: 8px;
+    padding: 50px;
+    background-color: #ffdeff;
+}
+
+.itns > form{
+    padding: 15px;
+}
+
+input{
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightcoral;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffdeff;
+    border-bottom-color: lightcoral;
+}
+
+.dados{
+    padding: 5px;
+}
+
+#cabecaTabela{
+    background-color: #f7bbf2;
+    border:  2px solid lightcoral;
+    margin-left: 17px;
+    padding: 6px;
+}
+
+tr, th, td{
+    background-color: #ffdeff;
+    padding: 3px;
+    border: 1px solid lightcoral;
+}
+
+#genero{
+    border-color: lightcoral;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 42.5%;
+    z-index: 1;
+    text-align: center;
+    background-color: lightcoral;
+    color: #ffdeff;
+}
