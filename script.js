@@ -4,11 +4,10 @@ var qtdElementos = 0;
 function guardarDados(event){
 
     var nome = document.getElementById("nome").value;
-    var genero = document.getElementById("genero").options[document.getElementBy("genero").
-        selectedIndex].innerHTML;
+    var genero = document.getElementById("genero").options[document.getElementBy("genero").selectedIndex].innerHTML;
     var ano = document.getElementById("ano").value;
     var nota = document.getElementById("nota").value;
-    
+
     animes.push ({
         'nome' : nome,
         'genero' : genero,
