@@ -27,7 +27,7 @@ function limparDados(){
     document.getElementById("genero").selectedIndex = "0";
     document.getElementById("ano").value = "";
     document.getElementById("nota").value = "";
-}
+} 
 
 function exibirAnimes(){
     var linha = document.createElement("tr");
